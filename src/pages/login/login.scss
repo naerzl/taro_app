@@ -1,0 +1,144 @@
+.container_login {
+  height: 100vh;
+  background-image: -webkit-linear-gradient(-45deg, #e3f2ff, #fff 50%, #e3f2ff);
+
+  .LogoImage {
+    width: 200rpx;
+    height: 80rpx;
+    margin: 240rpx 0 64rpx 48rpx;
+  }
+
+  .text {
+    height: 68rpx;
+    font-size: 48rpx;
+    color: #303133;
+    font-weight: 700;
+    margin-left: 48rpx;
+  }
+
+  .Title {
+    margin: 24rpx 0 0 48rpx;
+  }
+
+  .Form {
+    margin-top: 96rpx;
+    padding: 0 74rpx;
+
+    .passwordChange {
+      width: 48rpx;
+      height: 48rpx;
+
+      .eyeImage {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    :deep(.u-input) {
+      padding-left: 0 !important;
+    }
+
+    :deep(.item__body__right__message) {
+      margin: 0 !important;
+    }
+
+    :deep(.u-form) {
+      .u-form-item__body__right__message {
+        margin-left: 0 !important;
+      }
+    }
+  }
+
+  .forget {
+    margin: 24rpx 0 64rpx;
+    width: 140rpx;
+    height: 40rpx;
+    font-size: 28rpx;
+    color: #f0b00e;
+    line-height: 33rpx;
+  }
+
+  .handle {
+    .shadow {
+      position: relative;
+      width: 480rpx;
+      height: 80rpx;
+      top: 0;
+      left: 0;
+      margin: 0 auto;
+
+      // &::after {
+      //     position: absolute;
+      //     bottom: 0;
+      //     left: 0;
+      //     right: 0;
+      //     margin: 0 auto;
+      //     display: block;
+      //     content: '';
+      //     width: 448rpx;
+      //     height: 48rpx;
+      //     background: linear-gradient(135deg, #2755C2 0%, #5782DA 100%);
+      //     border-radius: 16rpx 16rpx 16rpx 16rpx;
+      //     filter: blur(10px);
+
+      // }
+    }
+
+    .Button {
+      position: absolute;
+      margin: 0 auto;
+      width: 480rpx;
+      height: 80rpx;
+      background: linear-gradient(135deg, #2755c2 0%, #5782da 100%);
+      border-radius: 16rpx 16rpx 16rpx 16rpx;
+      text-align: center;
+      line-height: 80rpx;
+      color: #fff;
+      z-index: 999;
+      // box-shadow: 0rpx 8rpx 8rpx 2rpx #2755C2;
+    }
+  }
+
+  .NoAccout {
+    display: flex;
+    margin: 32rpx auto 298rpx;
+    justify-content: center;
+
+    view {
+      height: 40rpx;
+      font-size: 28rpx;
+      color: #616266;
+      line-height: 40rpx;
+    }
+
+    .register {
+      color: #2755c2;
+    }
+  }
+
+  .agreement {
+    display: flex;
+    justify-content: center;
+
+    .audio {
+      width: 32rpx;
+      height: 32rpx;
+
+      .audioImage {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .content {
+      display: flex;
+      height: 34rpx;
+      font-size: 24rpx;
+      color: #919499;
+    }
+
+    .bule {
+      color: #2755c2;
+    }
+  }
+}
